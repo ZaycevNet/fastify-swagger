@@ -1,6 +1,6 @@
 {
   "name": "@za-utils/fastify-swagger",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "description": "Generate Swagger files automatically for Fastify.",
   "main": "index.js",
   "scripts": {
