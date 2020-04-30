@@ -17,7 +17,7 @@ module.exports = function (fastify, opts, next) {
 
   opts.swagger = opts.swagger || {}
 
-  const key = opts.swagger.key || null;
+  const key = opts.swagger.key || null
   const info = opts.swagger.info || null
   const host = opts.swagger.host || null
   const schemes = opts.swagger.schemes || null
@@ -90,7 +90,7 @@ module.exports = function (fastify, opts, next) {
 
     swaggerObject.paths = {}
     for (const route of routes) {
-      if ((route.schema && route.schema.hide) || ((route.schema.key || null) === key)) {
+      if ((route.schema && route.schema.hide) || ((route.schema.key || null) !== key)) {
         continue
       }
 
