@@ -1,5 +1,5 @@
 {
-  "name": "fastify-swagger",
+  "name": "@za-utils/fastify-swagger",
   "version": "2.5.1",
   "description": "Generate Swagger files automatically for Fastify.",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "fastify",
     "swagger"
   ],
-  "author": "Tomas Della Vedova - @delvedor (http://delved.org)",
+  "author": "Tomas Della Vedova - @delvedor",
   "contributors": [
     {
       "name": "Matteo Collina",
